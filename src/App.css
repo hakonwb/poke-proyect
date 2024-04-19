@@ -1,0 +1,172 @@
+h1{
+  font-size: 20px;
+  margin-left: 5% ;
+}
+
+.main-container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layout-game{
+  width: 350px;
+  height: 500px;
+  border: solid 5px black;
+  border-radius: 2% 2% 18% 2%;
+  background-color: antiquewhite;
+}
+
+.screen-layout{
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border: solid 5px black;
+  border-radius: 2%;
+  margin: 3%;
+  background-color: green;
+  border-radius: 2% 2% 18% 2%;
+}
+
+.screen-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.container-pad{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction:row ;
+}
+
+
+.button-up-down{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200%;
+  margin-left: 40%;
+}
+.container-select{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  transform: rotate(-30deg);
+  margin-right: 20%;
+  margin-top: 10%;
+}
+.container-select-btn{
+  padding-top: 100px;
+}
+
+.container-start {
+  padding-top: 100px;
+
+}
+.container-action{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 80% 27% 80% 27% ;
+}
+
+.button-a-container{
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  margin-top: 15%;
+}
+
+.button-b-container{
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+
+  margin-top: 45%;
+}
+
+
+.btn-select{
+  width: 30px;
+  height: 10px;
+  background-color: gray;
+  margin-top: 45%;
+
+}
+
+.btn-start{
+  width: 30px;
+  height: 10px;
+  background-color: gray;
+
+}
+
+.button-b{
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-color: red;
+  margin-top: 45%;
+}
+
+.button-a{
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-color: red;
+  margin-top: 15%;
+}
+
+.button-left{
+  height: 23px;
+  width: 40px;
+  margin-top: 70%;
+  margin-right: 10%;
+  background-color: grey;
+}
+
+.button-up{
+  height: 40px;
+  width: 25px;
+  margin-top: 10%;
+  margin-right: 10%;
+  background-color: grey;
+}
+
+.button-down{
+  height: 40px;
+  width: 25px;
+  margin-right: 10%;
+  margin-bottom: 200%;
+  background-color: grey;
+}
+
+.button-rigth{
+  height: 23px;
+  width: 40px;
+  margin-top: 70%;
+  margin-right: 10%;
+  background-color: grey;
+}
+
+.A{
+  margin-left: 65%;
+  rotate: -25%;
+}
+
+.B{
+  margin-left: 75%;
+  rotate: -25%;
+}

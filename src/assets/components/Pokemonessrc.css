@@ -1,0 +1,10 @@
+
+
+.Screenpokemon{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 308px;
+    height: 208px;
+}
